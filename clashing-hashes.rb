@@ -4,7 +4,6 @@ require 'sinatra'
 require 'sinatra/reloader'
 require 'twitter'
 
-require_relative 'lib/twitter'
 
 get '/' do
   @name = 'Bo'
