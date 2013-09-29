@@ -1,0 +1,44 @@
+== 0.5.0 2013-03-02
+
+ * Fix rerunning of specs defined in non-spec files (e.g. support files).
+
+== 0.4.1 2012-11-15
+
+ * Run spec directory by default, like rspec.
+
+== 0.4.0 2012-11-11
+
+ * Fix further issues with custom formatter being overridden by respec.
+
+== 0.3.0 2012-11-11
+
+ * Don't add progress formatter when user has selected something else.
+ * Remove 's' option. Use "-f s" instead, or an .rspec file instead.
+ * Pass argument to deprecated --formatter option to rspec.
+
+== 0.2.0 2012-10-31
+
+ * Support rspec options that require an argument.
+ * Write failures to current directory, not home directory.
+
+== 0.1.1 2012-09-27
+
+ * Handle file name arguments with line number suffixes.
+
+== 0.1.0 2012-06-08
+
+ * Remove c, d, x/X shortcuts.
+ * Pass any argument that starts with '-' directly to rspec.
+
+== 0.0.3 2012-05-24
+
+ * Add shortcuts for debugger (d) and DRb (x).
+
+== 0.0.2 2012-05-23
+
+ * Run through bundler if Gemfile is present.
+ * Don't run whole files specified when rerunning failures.
+
+== 0.0.1 2012-05-17
+
+ * Hi.
